@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial - lista de usuarios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Parcial 1 - Division 132</h1>
+    </header>
+
+    <main>
+        <section class="panel usuarios">
+            <h2 id="titulo-users">Users</h2>
+            <hr>
+
+            <div class="controles-superiores">
+                <div class="radios">
+                    <label><input type="radio" name="estado" checked>Active</label>
+                    <label><input type="radio" name="estado">Inactive</label>
+                    <label><input type="radio" name="estado">All</label>
+                </div>
+
+                <div class="busqueda">
+                    <input type="text" placeholder="Search Users" id="buscador">
+                </div>
+            </div>
+
+            <div class="botones">
+                <button class="btn-primario">CREATE</button>
+                <button>DESACTIVE</button>
+                <button>RESET PASSWORD</button>
+            </div>
+
+            <div id="users-container"></div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Valentino Carrazana Falcone</p>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
